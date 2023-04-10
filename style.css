@@ -1,0 +1,73 @@
+/* Gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about {
+    background-color: #f1f1f1;
+}
+
+#experiences {
+    background-color: #d0eafb;
+}
+
+#education {
+    background-color: #fff1a8;
+}
+
+#skills {
+    background-color: #e0ffe4;
+}
+
+#interests {
+    background-color: #f9c9d9;
+}
+
+#award {
+    background-color: #d1d1d1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
